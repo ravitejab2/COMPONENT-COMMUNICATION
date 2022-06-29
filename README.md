@@ -1,3 +1,36 @@
+Problem statement:
+GLOBAL STYLES 
+
+Create an Angular application using the ng new command. 
+
+Install bootstrap locally in the app. 
+
+Make the bootstrap library as a global style sheet in the Angular app. 
+
+ 
+
+ 
+
+COMPONENT COMMUNICATION (parentà child & child à parent) 
+
+Create two components named SquareComponent & SquareResultComponent respectively. The SquareResultComponent must be a child of SquareComponent. 
+
+The SquareComponent must contain a textbox and the SquareResultComponent must contain a <span> element respectively. 
+
+When the user types a number in the textbox within the SquareComponent, the square of the number must be displayed inside the <span> element within the SquareResultComponent. 
+
+
+Create a button titled Save Result inside the SquareResultComponent. 
+
+Create a dropdown list inside the SquareComponent. 
+
+When the button is clicked, the currently displayed result must be passed back to the SquareComponent, which then will add it to the drop down list created in step 2. 
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+
 # Globalstyles
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
