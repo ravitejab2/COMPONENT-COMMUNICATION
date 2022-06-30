@@ -1,9 +1,9 @@
-<label>Enter value: </label>
-<input type="string" name="square" #pData (keyup)= "0">
+<span>Enter value: </span>
+<input type="string" name="square" #pData (keyup)= "0" class="col-xs-4" >
 <br>
 
 <app-square-result (childData)= "onChange($event)" [parentData]= "pData.value"></app-square-result><br>
 Saved results:
-<select>
+<select class="btn btn-secondary dropdown-toggle">
     <option *ngFor = "let item of valuesList">{{item}}</option>
 </select> 
