@@ -2,7 +2,7 @@
 <input type="string" name="square" #pData (keyup)= "0">
 <br>
 
-<app-square-result (childData)= "onChage($event)" [parentData]= "pData.value"></app-square-result><br>
+<app-square-result (childData)= "onChange($event)" [parentData]= "pData.value"></app-square-result><br>
 Saved results:
 <select>
     <option *ngFor = "let item of valuesList">{{item}}</option>

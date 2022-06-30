@@ -14,7 +14,7 @@ export class SquareComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onChage(value:string){
+  onChange(value:string){
     this.value=value;
     this.valuesList.push(value);
   }
